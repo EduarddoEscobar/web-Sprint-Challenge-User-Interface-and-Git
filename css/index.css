@@ -101,12 +101,22 @@ header nav a{
 }
 
 /* Top section styles */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-top{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+	padding: 2%;
+	text-align: left;
 }
 
 .top-content .text-container {
@@ -183,7 +193,41 @@ header nav a{
 	background-color: dodgerblue;
 }
 
+.about-middle{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.about-middle .topic{
+	width: 45%;
+	margin-top: 5%;
+	border-bottom: 1px dotted lightgrey;
+}
+
+.about-middle .topic.bottom-topic{
+	border-bottom: 1px dotted black;
+}
+
+.about-middle .topic p{
+	margin: 4% 0;
+}
+
+.about-middle .topic button{
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	padding: 2%;
+	width: 30%;
+	border-radius: 10px;
+}
+
 /* Bottom section styles */
+
+.about-bottom{
+	padding: 4% 0;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
