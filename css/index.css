@@ -221,6 +221,13 @@ header nav a{
 	padding: 2%;
 	width: 30%;
 	border-radius: 10px;
+	transition-duration: 1s;
+}
+
+.about-middle .topic button:hover{
+	background-color: black;
+	color: white;
+	border: 2px solid white;
 }
 
 /* Bottom section styles */
