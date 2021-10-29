@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+/* General Styles */
 * {
     box-sizing: border-box;
 }
@@ -71,6 +72,35 @@ p {
     margin: 0 auto;
 }
 
+/* Header styles */
+header{
+	margin: 2% 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+header .logo{
+	width: 25%;
+}
+
+header nav{
+	width: 75%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+header nav a{
+		text-decoration: none;
+		color: black;
+}
+
+.main-image{
+	padding: 2% 0;
+}
+
+/* Top section styles */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +115,7 @@ p {
     padding-bottom: 20px;
 }
 
+/* Middle section styles */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -152,7 +183,7 @@ p {
 	background-color: dodgerblue;
 }
 
-
+/* Bottom section styles */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -167,6 +198,7 @@ p {
     padding-right: 0;
 }
 
+/* Footer styles */
 footer {
     width: 100%;
     background: black;
